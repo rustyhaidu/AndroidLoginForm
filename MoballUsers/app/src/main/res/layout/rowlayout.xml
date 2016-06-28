@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#A74D4D"
+    android:weightSum="5"
+    android:id="@+id/LinearLayout">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvExchangeName"
+        android:text="Here Exchange Name"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvExchangeValue"
+        android:text="Here Exchange Value"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+
+
+
+</LinearLayout>
